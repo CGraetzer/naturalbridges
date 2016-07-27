@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link href='https://fonts.googleapis.com/css?family=Ovo|Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'> 
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+         <!-- Slideshow Javacript
+        <script language="javascript">
+            var num=1
+            img1 = new Image ()
+            img1.src = "images/lelandarch.jpg"
+            img2 = new Image ()
+            img2.src = "images/owachomobridge.jpg"
+            img3 = new Image ()
+            img3.src = "images/bridgemtn.jpg"
+            img4 = new Image ()
+            img4.src = "images/delicatearch.jpg"
+            img5 = new Image ()
+            img5.src = "images/santacruzbeach.jpg"
+    
+            text1 = "Leland Arch, Wisconsin, USA"
+            text2 = "Owachomo Bridge, Utah, USA"
+            text3 = "Bridge Mountain, Nevada, USA"
+            text4 = "Delicate Arch, Utah, USA"
+            text5 = "Santa Cruz Beach, California, USA"
+    
+            function slideshowUp()
+            {
+                num=num+1
+                if (num==6) //increase number if number of photos increases, such as - 5 photos = (num==6)//
+                {num=1}
+                document.picss.src=eval("img"+num+".src")
+                document.titlej.textboxj.value=eval("text"+num)
+            }
+            function slideshowBack()
+            {
+                num=num-1
+                if (num==0)
+                {num=5} //num must equal 1 less then up function//
+                document.picss.src=eval("img"+num+".src")
+                document.titlej.textboxj.value=eval("text"+num)
+            }
+        </script>   -->
+        
+    </head>
+    <body>
+        <div id="container">
+            <div class="banner">
+                <img src="images/bannerphoto1.jpg"/>
+            </div>
+            <div class="navigation">
+                <ul>
+                  <a href="index.html"><li>Home</li></a>
+                    <a href="formation.html"><li>Formation</li></a>
+                    <a href="locations.html"><li>Locations</li></a>
+                </ul>
+            </div><!-- This is where the navigation div ends -->
+            <div class="content">
+                <h1>Nature's Rock Stars</h1>
+                <p>From delicate to massive, these wonders of the world capture our interest and imagination. 
+                Something about the window invites us to look through, to frame a view, to follow the arch shape with our eyes.</p>
+                <p>Also intriguing are the contrast and contradiction. 
+                We can touch the hardness of the rock. 
+                We can barely comprehend the eons it has taken nature's forces to <a href="formation.html" target="_blank">form</a> these. 
+                Yet each is unique and many are fragile. 
+                Within our lifetimes, rock arches have crumbled and fallen and will continue to do that.</p>
+                <p>Seeing these natural wonders in their unique settings is not to be missed. 
+                Luckily, many <a href="locations.html" target="_blank">parks</a> and vistas are open for exploration. 
+                Don't forget your camera!</p>
+                
+            </div><!-- This is where the content div ends -->
+            <div class="sidebar">
+                <h2>Photography Tips</h2>
+                <p>Capture the beauty of amazing rocks and their landscapes!</p>
+                <h3><strong>Desert</strong></h3>
+                    <ul>
+                        <li>Use weak light conditions, either sunrise or sunset, to get glowing colors.</li>
+                        <li>Use a tripod. With weak light and a small aperture, you need to keep the camera steady.</li>
+                        <li>Study classic shots ahead of time to find the angles you want to shoot from.</li>
+                    </ul>
+            
+                <h3><strong>Shore</strong></h3>
+                    <ul>
+                        <li>Work on composition. Put interesting rocks in the foreground and think about how they lead into the shot.</li>
+                        <li>Use different camera heights and angle the camera up or down to show different amounts of water and sky.</li>
+                        <li>Include a tree, people, birds, or other recognizable things for a sense of scale.</li>
+                    </ul>
+                
+            </div><!-- This is where the sidebar div ends -->
+            
+            
+            <div class="slideshow">
+                <img src="images/lelandarch.jpg" name="picss" border=0 height="600" width="750">
+                <form name="titlej">
+                    <input type="text" width="100" name="textboxj" value="Leland Arch, Wisconsin, USA">
+                </form>
+
+                <a href="javascript:slideshowBack()"> Back</a>
+                <a href="javascript:slideshowUp()"> Next</a>    
+            </div>
+             
+                
+            <div class="photo">
+                <img src="images/oceanbridge.jpg">
+                <img src="images/desertbridge.jpg">
+                <img src="images/PuertoRico_bridge.jpg">
+                <img src="images/snowybridge.jpg">
+                <img src="images/personwalkingbridge.JPG">
+                     
+                     
+            </div><!-- This is where the photo div ends -->
+        </div> <!-- This ends the container div -->
+    
+    
+    </body>
+</html>
+</html>

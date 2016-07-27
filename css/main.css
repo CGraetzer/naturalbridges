@@ -1,0 +1,209 @@
+*, table, ul, li, td, div, body {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-spacing: 0px;
+    
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ==============above: Kurt tried clearing more objects because 
+Safari doesn't show navigation bar as expected ===========================  */
+
+body {
+    background-color: navy;
+}
+
+#container {
+    margin: auto;
+    width: 960px;
+}
+
+.banner {
+
+}    
+/*-----------------------------Start Navigation Div Styles----------------*/
+.navigation {
+    position: static;
+}
+
+.navigation ul {
+    display: table;
+    margin: 20px 0px;
+    width: 100%; 
+}
+
+.navigation ul li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    width: 320px;
+    color: black;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    background-color: #B5BAC9;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    background-color: #B5BAC9;
+    vertical-align: top;
+    font-size: 24px;
+}
+
+.navigation ul li:hover {
+    color: navy;
+    background-color: white;
+}
+
+/*--------------------------------Start Content Div Styles---------------------*/
+.content {
+    width: 650px;
+    float: right;
+    background-color: white;
+    padding: 20px;
+}
+
+.content h1 {
+    font-family: 'Ovo', serif;
+    text-align: center;
+    font-size: 40px;
+    color: firebrick;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-family: 'Ovo', serif;
+    font-size: 25px;
+    color: firebrick;
+}
+
+.content p {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.content p a {
+    font-family: 'Open Sans', sans-serif;
+    color: firebrick;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content p a:hover {
+    color: navy;
+}
+
+.content figure {
+    float: right;
+    margin-left: 20px;
+    height: 100%;
+
+}
+
+.content figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.content figcaption a {
+    text-decoration: none;
+}
+
+#introduction {
+    font-size: 15px;
+}
+
+.photo {
+    width: 700px;
+    height: 300px;
+    float: right;
+    background-color: firebrick;
+    padding: 5px;
+}
+
+.photo img {
+    width: 100px;
+    height: 100px;
+}
+/*----------------------------------Start Sidebar Styles----------------*/
+.sidebar {
+    width: 230px;
+    float: left;
+    background-color: #BEBFC2;
+    padding: 15px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    font-family: 'Ovo', sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.sidebar h3 {
+    font-size: 14px;
+    font-family: 'Open sans', sans-serif;
+    color: black;
+}
+
+.sidebar p {
+    font-size: 14px;
+    font-family: 'Open sans', sans-serif;
+    margin-bottom: 16px
+}
+
+.sidebar ul {
+    font-size: 14px;
+    font-family: 'Open sans', sans-serif;
+    color: black;
+    list-style-position: inside;
+}
+
+.sidebar img {
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: navy;
+}
+
+.sidebar a:hover {
+    color: firebrick;
+}
+
+
+.slideshow {
+    vertical-align: top;
+    text-align: center;
+    margin: 290px;
+    position: relative;
+    width: 80%;
+    
+}
+
+.slideshow a {
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.slideshow img {
+    border-radius: 15px 50px 30px;
+}
+
+
+
