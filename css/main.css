@@ -22,9 +22,6 @@ body {
     width: 960px;
 }
 
-.banner {
-
-}    
 /*-----------------------------Start Navigation Div Styles----------------*/
 .navigation {
     position: static;
@@ -32,7 +29,7 @@ body {
 
 .navigation ul {
     display: table;
-    margin: 20px 0px;
+    margin: 10px 0px;
     width: 100%; 
 }
 
@@ -45,7 +42,6 @@ body {
     font-family: 'Open sans', sans-serif;
     font-weight: bold;
     background-color: #B5BAC9;
-
 }
 
 .navigation a {
@@ -104,7 +100,6 @@ body {
     float: right;
     margin-left: 20px;
     height: 100%;
-
 }
 
 .content figcaption {
@@ -118,11 +113,7 @@ body {
     text-decoration: none;
 }
 
-#introduction {
-    font-size: 15px;
-}
-
-.photo {
+/*.photo {
     width: 700px;
     height: 300px;
     float: right;
@@ -133,8 +124,8 @@ body {
 .photo img {
     width: 100px;
     height: 100px;
-}
-/*----------------------------------Start Sidebar Styles----------------*/
+}  */
+/*  ======================= start sidebar styles ====================  */
 .sidebar {
     width: 230px;
     float: left;
@@ -168,15 +159,23 @@ body {
     list-style-position: inside;
 }
 
+/* =========== start sidebar image styles for Locations page =========  */
+/* =========== using figure to avoid affecting paragraph divs on other pages =========  */
 .sidebar img {
     display: block;
     margin: auto;
-    margin-bottom: 5px;
 }
 
-.sidebar a {
-    text-decoration: none;
+.sidebar figcaption {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar figcaption a {
     color: navy;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .sidebar a:hover {
@@ -184,6 +183,7 @@ body {
 }
 
 
+/* ======================= start slideshow div styles ========== */
 .slideshow {
     vertical-align: top;
     text-align: center;
